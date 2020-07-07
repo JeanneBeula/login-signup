@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form </title>
+   <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 shadow-sm">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="sign-up.html" tabindex="-1" aria-disabled="true">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<div class="container mb-5 bg-info">
+    <div class="row">
+        <div class="col-lg-3 col-md-2"></div>
+        <div class="col-lg-6 col-md-8 text-center">
+            <form action="/action_page.php"> 
+                <div class="card mt-5 mb-5"> 
+                    <div class="card-header">Login form</div>
+                    <div class="card-body">
+                        <input type="text" placeholder="Enter Username" class="form-control" name="uname" required> <br>
+                        <input type="password" placeholder="Enter Password" class="form-control" name="psw" required> <br>
+                    
+                        <input type="checkbox" checked="checked"> Remember me
+                        <button class="btn btn-info button" type="submit">Login</button> <br>
+                        <span class="psw">Forgot <a href="#">password?</a></span> 
+<br/>
+                        <a href="sign-up.html" class="btn btn-success">Signup</a>
+                    </div>
+                    
+                </div>
+                </form>
+        </div>
+        <div class="col-lg-3 col-md-2"></div>
+    </div>
+</div>
+
+</body>
+
+<footer class="container-fluid mt-5 bg-dark">
+    <div class="row">
+        <div class="col-md-12 text-primary">
+            <pre class="text-secondary text-center">
+            <h3> Abaut Us</h3>
+            <p>The Intelligent Parking System is a system  that  enables customers/drivers to reserve a parking  space.
+                It  also allows  the customers/drivers to view the parking status  in Kigali. 
+                We are developing this system because of the congestion and collision of  the vehicle,
+                this  system is  going to be developed to solve such problems by designing a web based system 
+                that will enable the customers/drivers to make a reservation of available parking space in Kigali.</p>
+            
+            </pre>
+        </div>
+    </div>
+</footer>
+</html>
